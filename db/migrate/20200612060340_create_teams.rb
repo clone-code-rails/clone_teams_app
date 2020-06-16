@@ -3,7 +3,7 @@ class CreateTeams < ActiveRecord::Migration[5.2]
     create_table :teams do |t|
       t.references :user, foreign_key: true
       t.string :name
-      t.string :shrot_desc
+      t.string :short_desc
       t.date :start_date
 
       t.timestamps

@@ -62,7 +62,7 @@ ActiveRecord::Schema.define(version: 2020_06_12_060340) do
   create_table "teams", force: :cascade do |t|
     t.integer "user_id"
     t.string "name"
-    t.string "shrot_desc"
+    t.string "short_desc"
     t.date "start_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
