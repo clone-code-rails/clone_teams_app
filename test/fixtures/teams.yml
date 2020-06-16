@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  name: MyString
+  shrot_desc: MyString
+  start_date: 2020-06-12
+
+two:
+  user: two
+  name: MyString
+  shrot_desc: MyString
+  start_date: 2020-06-12
