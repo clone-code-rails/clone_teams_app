@@ -1,6 +1,3 @@
-new => Team.new => 팀에 비어있는 행
-edit => Team.find(id) => 특정한 팀의 행
-
 <%= form_with(model: team, local: true) do |form| %>
   <% if team.errors.any? %>
     <div id="error_explanation">
